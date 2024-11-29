@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Отзывы - Магазин аксессуаров и косметики</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom Styles */
+        header {
+            background-color: #e6e6fa; /* Светло-фиолетовый */
+            color: #4b0082; /* Темно-фиолетовый */
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-family: 'Georgia', serif;
+            font-size: 2.5rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        .navbar {
+            background-color: #4b0082; /* Темно-фиолетовый */
+        }
+
+        .navbar .nav-link {
+            color: #ffffff !important;
+        }
+
+        .navbar .nav-link:hover {
+            color: #dda0dd !important; /* Сиреневый оттенок */
+        }
+
+        footer {
+            background-color: #4b0082; /* Темно-фиолетовый */
+            color: #ffffff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        footer p {
+            margin: 0;
+        }
+
+        .hero2 {
+            background-color: #e6e6fa;
+            padding: 40px 0;
+            text-align: center;
+        }
+
+        .hero2 h2 {
+            color: #4b0082;
+            font-size: 2.5rem;
+        }
+
+        .reviews {
+            margin: 50px 0;
+        }
+
+        .review-card {
+            margin-bottom: 30px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            background-color: #fff;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .review-card h4 {
+            color: #4b0082;
+            font-size: 1.5rem;
+        }
+
+        .review-card p {
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .review-card strong {
+            font-size: 1.2rem;
+            color: #4b0082;
+        }
+
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Магазин аксессуаров и косметики</h1>
+        <p>Лучшие товары для вашей красоты и стиля</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">Магазин</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Главная</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">О нас</a></li>
+                    <li class="nav-item"><a class="nav-link" href="catalog.html">Каталог</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contacts.html">Контакты</a></li>
+                    <li class="nav-item"><a class="nav-link" href="reviews.html">Отзывы</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Reviews Section -->
+    <div class="hero2">
+        <h2>Отзывы наших клиентов</h2>
+        <p>Что говорят наши покупатели</p>
+    </div>
+
+    <section class="reviews container">
+        <!-- Review 1 -->
+        <div class="review-card">
+            <h4>Отзыв 1</h4>
+            <p><strong>Марина, Москва:</strong> "Очень довольна покупкой! Качество косметики на высшем уровне. Я вернусь за новыми продуктами!"</p>
+        </div>
+
+        <!-- Review 2 -->
+        <div class="review-card">
+            <h4>Отзыв 2</h4>
+            <p><strong>Александра, Санкт-Петербург:</strong> "Уже второй раз покупаю аксессуары, всегда всё идеально! Ожидания оправданы на 100%!"</p>
+        </div>
+
+        <!-- Review 3 -->
+        <div class="review-card">
+            <h4>Отзыв 3</h4>
+            <p><strong>Ирина, Казань:</strong> "Приятно удивлена качеством и ценой. Обязательно вернусь за новыми покупками. Рекомендую!"</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Магазин аксессуаров и косметики. Все права защищены.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
